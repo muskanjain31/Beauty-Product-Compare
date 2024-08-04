@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet');
+
+
+.ProductImage{
+    width: 400px;
+    margin-top: 9rem;
+    margin-left: 2rem;
+    border-radius: 35px;
+    position: relative;
+    filter: brightness(80%);
+    transition: 0.5s;
+}
+.ProductImage:hover{
+    transform: scale(1.1);
+    background-color: black;
+    z-index: 2;
+}
+.ProductCard {
+    position: relative; /* Ensure proper positioning of the product name */
+    text-align: center;
+    display: inline-block; /* Center the product name horizontally */
+}
+
+.ProductName {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px 97px 22px;
+    font-weight: bold;  
+    transition: 0.5s  ; /* Add padding to make the text more readable */
+    font-size: 35px;
+    color: #080808; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(234, 228, 228, 0.7);
+    font-family: "Prata", serif;
+    font-weight: 800;
+    font-style: bold;
+}
+.ButtonPosition{
+    position: absolute;
+    top: 82%;
+    left: 52%;
+    transform: translate(-50% , -50%);
+    border: 20px;
+}
+.ProductButton {
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+    color: white; /* Set button text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: 10px; 
+    cursor: pointer; 
+    margin-top: 10px; 
+}
+
+.ProductButton:hover {
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+}

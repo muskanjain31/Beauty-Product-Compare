@@ -1,0 +1,84 @@
+.search-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.ProductCard {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.ProductCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ProductInfo {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ProductImage {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.ProductName {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #333;
+  line-height: 1.4;
+}
+
+.ProductPrice {
+  font-weight: bold;
+  color: #C14A35;
+  margin: 5px 0;
+}
+
+.ProductRating {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.buttonPosition {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.ProductButton {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.ProductButton:hover {
+  opacity: 0.9;
+}

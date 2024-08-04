@@ -1,0 +1,67 @@
+.background {
+    background-image: url('../../assets/images/2.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-wrapper {
+    background: rgba(224, 199, 199, 0.8);
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 310px;
+}
+  
+  .form-title {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .input {
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 6px;
+
+  }
+  
+  .button {
+    padding: 0.9rem;
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 6px;
+
+  }
+  
+  .button:hover {
+    background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+  }
+  .link {
+    margin-top: 1rem;
+  }
+  
+  .link a {
+    color: #c24c35; /* Change link color to red */
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    text-decoration: underline;
+  }
+  

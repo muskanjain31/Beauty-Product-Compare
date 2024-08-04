@@ -1,0 +1,78 @@
+.card {
+    width: 35rem;
+    margin-bottom: 7.5rem !important;
+    margin-left: 2.5rem !important;
+    font-size: 13px;
+}
+
+.mb-3 {
+   
+
+}
+/* ProductCard2.css */
+
+.card-title{
+    font-size: 17px;
+    padding: 6px 0px 6px 0px;
+    color: black;
+}
+  
+ .card .card-body p {
+    font-size: 13px;
+}
+.btn{
+        width: 130px;
+        font-size: 12px;
+    }
+   .col-lg-3,  .card mb-4{
+        width: 300px;
+        margin-left: 3.5rem !important;
+        padding-left: 30px;
+    }
+
+/* .back-colour{
+    background-color: #c14a3552;
+    margin-top: 4rem;
+} */
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #987d5f;
+    --bs-btn-border-color: #987d5f;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #987d5f;
+    --bs-btn-hover-border-color: #987d5f;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #987d5f;
+    --bs-btn-active-border-color: #987d5f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #987d5f;
+    --bs-btn-disabled-border-color: #987d5f;
+}
+.P-Products{
+    padding: 24px 0px 18px 32px;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+}
+.short-name {
+    display: block;
+}
+
+.full-name {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.product-card:hover .full-name {
+    display: block;
+}

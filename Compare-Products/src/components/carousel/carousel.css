@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet');
+
+.card-with-background {
+    position: relative;
+    border-radius: 20px; /* Adjust the value to control the curve */
+    overflow: hidden;
+    
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 200%; */
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the background image */
+}
+ .card-body {
+    position: relative;
+    z-index: 2;
+ } 
+
+ .carousel-caption {
+  position: absolute;
+  z-index: 2; /* Ensure the caption is above the overlay */
+  width: 100%; /* Make sure caption takes full width for proper positioning */
+  top: 5%;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 20rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  transform: translateY(-50%);
+  letter-spacing: 2.5px;
+}
+
+.carousel-text {
+  opacity: 0; /* Initially hidden */
+  animation: slideInFromLeft 1.5s forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.carousel-text h3, 
+.carousel-text p {
+  position: absolute;
+  left: -8%;
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+  font-family: "Prata", serif;
+  font-style: normal;
+}
+
+.carousel-caption h3 {
+  font-size: 68px;
+  font-weight: 400;
+  position: absolute;
+  top: 35%;
+}
+
+.carousel-caption p {
+  font-size: 68px;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+}
+
+.btn-1 {
+  opacity: 0; 
+  animation: slideInFromLeft 1.5s forwards;
+  position: absolute;
+  background: linear-gradient(135deg, #C14A35 0%, #e7933a 99%, #e4a999 100%);
+  top: 66%;
+  left: -8%;
+  width: 160px;
+  height: 50px;
+  border-radius: 30px;
+  border: #C14A35;
+  font-size: 18px;
+}
+
+.carousel-item {
+    position: relative;
+  }
+  
+  .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(44, 43, 42, 0.5);  */
+    z-index: 1;
+  }
+  
+  .carousel-item img {
+    width: 100%; /* Ensure the image takes full width */
+    max-height: 700px; /* Set the desired maximum height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin: 0 auto; /* Center the images */
+    position: relative; /* Ensure the image is behind the overlay */
+    z-index: 0; /* Ensure the image is behind the overlay */
+  }
+  
+   
+ 

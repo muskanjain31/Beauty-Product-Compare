@@ -1,0 +1,103 @@
+/* App.css */
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f1f7ff;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  
+  .btn-outline-success {
+    --bs-btn-color: #c14a35;
+    --bs-btn-border-color: #c14a35;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c14a35;
+    --bs-btn-hover-border-color: #c14a35;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #c14a35;
+    --bs-btn-active-border-color: #c14a35;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #c14a35;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #c14a35;
+    --bs-gradient: none;
+  }
+  
+  .dropdown-menu {
+    --bs-dropdown-link-hover-color: #250701;
+    --bs-dropdown-link-hover-bg: #bb695a;
+  }
+  
+  .category-heading {
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .category-heading {
+      font-size: 2.5rem;
+    }
+  }
+  

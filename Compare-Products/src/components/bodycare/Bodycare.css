@@ -1,0 +1,16 @@
+.h4{
+    display: flex;
+    font-size: 90px;
+}
+.category-heading {
+    font-size: 40px;
+    padding: 20px; /* Adjust the font size as needed */
+  }
+  .card .card-body p {
+    font-size: 10px; /* Adjust the font size as needed */
+  }
+  .card .card-img-top {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: 300px; /* Maintain aspect ratio */
+  }
+  
